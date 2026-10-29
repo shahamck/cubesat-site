@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What are CubeSats — NASA × B1T</title>
+    <meta name="description" content="A scroll-through guide to CubeSats: how a 10 cm satellite is built, what flies inside it, and the missions that proved it." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23000'/%3E%3Crect x='9' y='9' width='14' height='14' rx='1.5' fill='none' stroke='%232458f2' stroke-width='2.5'/%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <header class="nav" id="nav">
+      <a class="brand" href="#top" aria-label="NASA × B1T home">
+        <svg class="worm" viewBox="-1 -3 111 36" aria-hidden="true">
+          <path d="M3 32V10C3 5 5.6 2.5 9 2.5S13.2 4.4 14.3 7.4L20.2 24.6C21.2 27.4 22.6 29 25.5 29S30 27 30 22.5V0" />
+          <path d="M35 32L41.7 8.2C42.6 5 44.2 2.5 47.4 2.5S52.2 5 53.1 8.2L59.8 32" />
+          <path d="M62.5 29H76.5C80.2 29 82.5 26.6 82.5 22.6S80.2 16 76.5 16H69C65.4 16 63 13.6 63 9.6S65.4 2.5 69 2.5H84" />
+          <path d="M84.5 32L91.2 8.2C92.1 5 93.7 2.5 96.9 2.5S101.7 5 102.6 8.2L109.3 32" />
+        </svg>
+        <span class="x">×</span><svg class="b1t" viewBox="268 600 1340 660" aria-hidden="true"><g transform="translate(0.000000,1872.000000) scale(0.100000,-0.100000)"><path d="M2945 12481 l-110 -6 -2 -3105 c-2 -1708 1 -3111 5 -3118 10 -14 3338 -17 3427 -2 180 29 353 66 415 87 25 8 63 18 85 23 55 11 233 75 292 104 15 8 54 27 85 43 90 44 118 60 137 77 10 9 20 16 24 16 3 0 23 12 44 26 172 116 374 339 453 499 11 22 24 47 30 55 18 28 82 172 91 204 4 17 14 51 23 76 31 94 56 231 71 390 16 169 15 209 -15 475 -15 140 -79 333 -157 480 -143 269 -400 498 -744 662 -47 23 -91 48 -98 57 -13 15 -8 36 9 36 7 0 107 63 162 103 10 6 34 23 54 37 41 29 189 173 221 216 12 16 43 61 69 99 26 39 55 82 65 97 11 15 19 32 19 38 0 6 9 28 19 48 39 75 61 130 61 149 0 11 7 40 16 64 24 67 54 319 54 459 0 135 -20 296 -51 401 -10 36 -19 74 -19 85 -1 10 -9 37 -20 59 -11 22 -19 48 -20 58 0 9 -9 34 -20 54 -11 21 -20 43 -20 49 0 85 -294 445 -444 543 -13 9 -45 31 -71 49 -25 17 -48 32 -51 32 -3 0 -36 18 -74 40 -38 22 -76 40 -85 40 -9 0 -28 9 -42 20 -14 11 -33 20 -41 20 -9 0 -34 9 -56 19 -23 10 -52 21 -66 24 -14 3 -45 12 -70 21 -143 48 -356 85 -555 97 -155 8 -2925 8 -3100 0z m2855 -1281 c248 -32 399 -156 464 -379 22 -75 22 -339 0 -396 -8 -22 -19 -52 -24 -67 -28 -89 -155 -219 -237 -243 -11 -3 -27 -12 -33 -20 -7 -8 -23 -15 -36 -15 -13 0 -47 -10 -76 -22 -53 -22 -57 -22 -783 -26 -634 -3 -733 -1 -750 12 -20 14 -20 28 -23 580 l-3 565 28 7 c15 3 33 7 38 9 25 8 1368 3 1435 -5z m150 -2410 c93 -19 167 -38 185 -48 11 -6 47 -23 79 -39 95 -45 266 -235 266 -294 0 -9 8 -34 17 -55 26 -59 25 -336 -1 -419 -63 -203 -182 -312 -428 -394 -59 -20 -101 -24 -340 -32 -394 -14 -1376 -8 -1405 9 l-23 13 0 615 c0 405 4 622 10 635 10 19 30 19 803 18 436 0 812 -4 837 -9z M9233 12468 c-11 -13 -44 -72 -73 -133 -84 -173 -209 -316 -390 -445 -56 -40 -230 -130 -253 -130 -6 -1 -30 -9 -52 -20 -22 -11 -47 -19 -55 -20 -8 0 -42 -9 -75 -20 -33 -10 -98 -29 -145 -40 -47 -12 -92 -25 -100 -29 -13 -7 -15 -76 -18 -515 -2 -494 -2 -507 17 -514 31 -11 281 5 336 22 28 9 63 16 79 16 16 0 61 9 100 20 39 11 105 30 146 41 41 12 96 30 122 40 56 23 53 23 72 3 14 -14 16 -240 16 -2256 0 -1233 3 -2244 6 -2247 6 -6 1423 -6 1429 1 10 10 16 6194 6 6221 l-11 27 -568 0 -569 0 -20 -22z M10892 12478 c-15 -15 -17 -1214 -3 -1237 8 -12 145 -14 871 -16 785 -3 864 -4 879 -19 15 -15 16 -209 19 -2484 2 -1492 7 -2471 13 -2476 10 -11 1431 -12 1448 -1 8 4 11 735 11 2476 l0 2469 26 10 c16 6 350 10 884 10 839 0 860 0 870 19 15 30 14 1233 -2 1249 -17 17 -4999 17 -5016 0z"/></g></svg>
+      </a>
+      <nav class="links" aria-label="Primary">
+        <a href="#satellites">Satellites</a>
+        <a href="#news">News</a>
+        <a href="#events">Events</a>
+        <a href="#careers">Careers</a>
+        <a href="#about">About</a>
+      </nav>
+      <a class="btn-ghost" href="#contact">Contact us</a>
+      <button class="menu" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    </header>
+
+    <main id="top">
+      <section class="story" id="story" aria-label="How a CubeSat is built">
+        <div class="stage">
+          <canvas id="sat" aria-hidden="true"></canvas>
+
+          <div class="scene scene-hero" data-scene="hero">
+            <h1><span>What are</span><br /><span class="l2">CubeSats</span></h1>
+            <p>Nanosatellites are loosely defined <br />as any satellite weighing less than 10 kilograms.</p>
+            <a class="btn" href="#" data-goto="0.5"><span class="ico"><svg viewBox="0 0 16 16"><path d="M4.5 6.5 8 10l3.5-3.5" /></svg></span>Discover how it works</a>
+          </div>
+
+          <div class="scene scene-guide" data-scene="guide">
+            <h2>A Basic Guide<br />to Nanosatellites</h2>
+            <p>The CubeSat standard was born in 1999, a joint project between California Polytechnic State University and Stanford University to give student teams one shared size and one shared launch interface.</p>
+            <p>The original aim was simple: make access to space affordable for university researchers.</p>
+            <a class="btn" href="#" data-toast="Demo build: the guide PDF isn't wired up yet.">Download Guide</a>
+          </div>
+
+          <h2 class="facts-title" data-scene="facts">Key Facts<br />about CubeSats</h2>
+
+          <svg class="leaders" aria-hidden="true"></svg>
+          <div class="callouts">
+            <div class="callout" data-anchor="dipole" data-side="right" data-at="0.43" data-dy="8">
+              <h3>Dipole antenna system</h3>
+              <p>Four tape-spring antennas ride coiled up during launch, then spring out to carry uplink and downlink.</p>
+            </div>
+            <div class="callout" data-anchor="structure" data-side="left" data-at="0.455" data-dy="-90">
+              <h3>Standard format structure</h3>
+              <p>A 10 cm aluminium frame with hard-anodised rails that slide through the launch dispenser and carry every load on the way up.</p>
+            </div>
+            <div class="callout" data-anchor="solar" data-side="right" data-at="0.48" data-dy="-6">
+              <h3>Solar panel</h3>
+              <p>Triple-junction cells on each face turn sunlight into power, while sun sensors report which way the craft is facing.</p>
+            </div>
+            <div class="callout" data-anchor="payload" data-side="left" data-at="0.6" data-dy="-70">
+              <h3>Payload</h3>
+              <p>The reason it flies. Here a compact camera and image processor, swappable for science instruments or radios.</p>
+            </div>
+            <div class="callout" data-anchor="eps" data-side="right" data-at="0.64" data-dy="-60">
+              <h3>Electrical power system</h3>
+              <p>Harvests, stores and routes power through the battery, regulators and the toroidal inductors that keep every rail stable.</p>
+            </div>
+            <div class="callout" data-anchor="radio" data-side="left" data-at="0.68" data-dy="-40">
+              <h3>UHF/VHF radio</h3>
+              <p>UHF and VHF radios trade range, power and licensing. Which band is right depends on the mission and its ground stations.</p>
+            </div>
+            <div class="callout" data-anchor="computer" data-side="right" data-at="0.72" data-dy="-30">
+              <h3>Flight control computer</h3>
+              <p>The on-board brain: it runs attitude control, schedules the payload and keeps the craft safe when something goes wrong.</p>
+            </div>
+          </div>
+
+          <div class="hint" aria-hidden="true"><span></span>Scroll</div>
+        </div>
+      </section>
+
+      <ol class="dots" aria-label="Sections">
+        <li><button data-goto="0" aria-label="What are CubeSats"></button></li>
+        <li><button data-goto="0.26" aria-label="A basic guide"></button></li>
+        <li><button data-goto="0.5" aria-label="Structure"></button></li>
+        <li><button data-goto="0.84" aria-label="Subsystems"></button></li>
+        <li><button data-href="#satellites" aria-label="Missions"></button></li>
+      </ol>
+
+      <section class="sec missions" id="satellites">
+        <div class="wrap">
+          <div class="sec-head">
+            <p class="eyebrow">Satellites</p>
+            <h2>Small cubes,<br />deep-space firsts</h2>
+            <p class="lead">CubeSats started as student projects in low Earth orbit. A few of them have since gone much further.</p>
+          </div>
+          <div class="cards" id="missionCards"></div>
+        </div>
+      </section>
+
+      <section class="sec factors" id="about">
+        <div class="wrap factors-grid">
+          <div>
+            <p class="eyebrow">The standard</p>
+            <h2>One unit,<br />many sizes</h2>
+            <p class="lead">Everything is measured in units. A 1U is a 10 cm cube; bigger craft stack or tile units so they still fit a standard dispenser.</p>
+            <div class="tabs" role="tablist" id="factorTabs"></div>
+            <dl class="specs" id="factorSpecs"></dl>
+          </div>
+          <div class="factor-art" id="factorArt" aria-hidden="true"></div>
+        </div>
+      </section>
+
+      <section class="stats" aria-label="CubeSats in numbers">
+        <div class="wrap stats-row">
+          <div><b data-count="1999">1999</b><span>Standard drafted at Cal Poly and Stanford</span></div>
+          <div><b data-count="10" data-suffix=" cm">10 cm</b><span>Edge of a single unit</span></div>
+          <div><b data-count="2000" data-suffix="+">2,000+</b><span>CubeSats launched so far</span></div>
+          <div><b data-count="2" data-suffix=" kg">2 kg</b><span>Maximum mass per unit</span></div>
+        </div>
+      </section>
+
+      <section class="sec news" id="news">
+        <div class="wrap">
+          <div class="sec-head row">
+            <div>
+              <p class="eyebrow">News</p>
+              <h2>From the build room</h2>
+            </div>
+            <a class="btn-ghost" href="#news">All stories</a>
+          </div>
+          <div class="news-grid" id="newsGrid"></div>
+        </div>
+      </section>
+
+      <section class="sec events" id="events">
+        <div class="wrap">
+          <div class="sec-head">
+            <p class="eyebrow">Events</p>
+            <h2>Come build with us</h2>
+          </div>
+          <ul class="event-list" id="eventList"></ul>
+        </div>
+      </section>
+
+      <section class="sec contact" id="careers">
+        <div class="wrap contact-grid" id="contact">
+          <div>
+            <p class="eyebrow">Careers &amp; contact</p>
+            <h2>Build what<br />flies next</h2>
+            <p class="lead">Students, engineers and partner labs: tell us what you want to put in orbit and we'll come back to you.</p>
+            <ul class="roles">
+              <li><span>Avionics engineer</span><em>Hardware</em></li>
+              <li><span>Flight software intern</span><em>Software</em></li>
+              <li><span>Mission operations</span><em>Ops</em></li>
+            </ul>
+          </div>
+          <form class="form" id="contactForm" novalidate>
+            <label>Name<input name="name" required autocomplete="name" /></label>
+            <label>Email<input name="email" type="email" required autocomplete="email" /></label>
+            <label>I'm interested in
+              <select name="topic">
+                <option>Flying a payload</option>
+                <option>A role on the team</option>
+                <option>Workshops and events</option>
+                <option>Something else</option>
+              </select>
+            </label>
+            <label>Message<textarea name="msg" rows="4" required></textarea></label>
+            <button class="btn" type="submit">Send message</button>
+            <p class="form-note" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <div class="wrap foot-grid">
+        <a class="brand" href="#top" aria-label="Back to top"></a>
+        <nav aria-label="Footer">
+          <a href="#satellites">Satellites</a><a href="#news">News</a><a href="#events">Events</a><a href="#careers">Careers</a><a href="#about">About</a>
+        </nav>
+        <p class="fine">Portfolio concept. Not an official NASA website.</p>
+      </div>
+    </footer>
+
+    <div class="toast" role="status"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
